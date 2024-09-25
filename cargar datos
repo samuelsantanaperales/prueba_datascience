@@ -1,0 +1,15 @@
+1) en la parte de  codigo en colab : 
+
+# cargar el archivo desde la pc 
+uploaded = files.upload()
+
+# Acceder al archivo cargado (asumiendo que solo cargas uno)
+for filename in uploaded.keys():
+    df = pd.read_csv(filename)
+
+# mostrar los datos para comprobar 
+print(df)
+
+2) se le abrira una venta de windows para cargar el archivo tipo nombre.csv
+
+  
